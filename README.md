@@ -1,0 +1,2 @@
+# ngx_http_access_bloom_filter_module
+ngx_http_access_bloom_filter_module can deny selected IP4 via bloom filter algorithm
