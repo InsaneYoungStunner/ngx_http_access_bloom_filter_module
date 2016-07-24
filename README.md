@@ -8,23 +8,22 @@
 #Directives
 
 ##deny_numbers_bf
-####Syntax:<div style="display: inline;float:right">deny_numbers_bf &ensp;&ensp; deny-ip-numbers</div>
-####Default:<div style="float:right">none</div>
-####Context:<div style="float:right">http,server,local</div>
+####Syntax: &ensp; &ensp; &ensp; &ensp; deny_numbers_bf &ensp;&ensp; deny-ip-numbers
+####Default: &ensp; &ensp; &ensp; &ensp; none
+####Context: &ensp; &ensp; &ensp; &ensp; http , server , local
 * Defines the number of IP address which can be forbidden in a bloom filter context.We will calculate the number of hash buckets by it.
 
 ##allow_bf
-####Syntax: allow_bf &ensp;&ensp; IP-address
-####Default:<div style="float:right">none</div>
-####Context:<div style="float:right">http,server,local</div>
+####Syntax: &ensp; &ensp; &ensp; &ensp; allow_bf &ensp;&ensp; IP-address
+####Default: &ensp; &ensp; &ensp; &ensp; none
+####Context: &ensp; &ensp; &ensp; &ensp; http , server , local
 * This parameter defines the IP address which has to be pushed to reserve the rightful IP on the allow list.
 
 ##deny_bf
-####Syntax:<div style="float:right">deny_bf &ensp;&ensp; IP-address</div>
+####Syntax: &ensp; &ensp; &ensp; &ensp; deny_bf &ensp;&ensp; IP-address
 
-####Default:<div style="float:right">none</div>
-
-####Context:<div style="float:right">http , server , local</div>
+####Default: &ensp; &ensp; &ensp; &ensp; none
+####Context: &ensp; &ensp; &ensp; &ensp; http , server , local
 * This parameter defines the IP address which has to be hashed to reserve the forbidden IP on the bitmap.
 
 #Example
