@@ -14,7 +14,7 @@
 * Defines the number of IP address which can be forbidden in a bloom filter context.We will calculate the number of hash buckets by it.
 
 ##allow_bf
-####Syntax:<div style="display: inline;float:right">allow_bf &ensp;&ensp; IP-address</div>
+####Syntax: allow_bf &ensp;&ensp; IP-address
 ####Default:<div style="float:right">none</div>
 ####Context:<div style="float:right">http,server,local</div>
 * This parameter defines the IP address which has to be pushed to reserve the rightful IP on the allow list.
