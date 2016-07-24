@@ -362,7 +362,7 @@ static char*
   return NGX_CONF_OK;
 
 }
-/*
+/*一些nginx中的数据结构
 typedef struct {
          in_addr_t                 addr;
          in_addr_t                 mask;
