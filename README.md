@@ -39,6 +39,9 @@ deny_bf  10.1.1.0/16;
 }
 
 ```
+#Feedback
+If you find any bugs or have any good ideas, please email me and I will try to help.I would appreciate every kind of feedback or problem reports.  
+* *Mail: lxw865116882@gmail.com*
 
 #License
 [GNU General Public License](http://www.gnu.org/licenses/gpl.html)
